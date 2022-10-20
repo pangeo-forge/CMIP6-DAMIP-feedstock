@@ -12,7 +12,7 @@ from pangeo_forge_recipes.recipes import XarrayZarrRecipe
 iids = [
     # PMIP runs requested by @rebeccaherman1
     # https://github.com/pangeo-forge/cmip6-feedstock/issues/3
-    'CMIP6.DAMIP.BCC.BCC-CSM2-MR.hist-aer.r1i1p1f1.Amon.pr.gn.v20190507',
+    # 'CMIP6.DAMIP.BCC.BCC-CSM2-MR.hist-aer.r1i1p1f1.Amon.pr.gn.v20190507', #showed local failures, need to debug further
     #  'CMIP6.DAMIP.BCC.BCC-CSM2-MR.hist-aer.r2i1p1f1.Amon.pr.gn.v20190507',
     #  'CMIP6.DAMIP.BCC.BCC-CSM2-MR.hist-aer.r3i1p1f1.Amon.pr.gn.v20190508',
     'CMIP6.DAMIP.CAS.FGOALS-g3.hist-aer.r1i1p1f1.Amon.pr.gn.v20200411',
